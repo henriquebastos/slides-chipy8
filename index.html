@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.9.1: http://docutils.sourceforge.net/" />
+<meta name="version" content="S5 1.1" />
+<title></title>
+<style type="text/css">
+
+.highlight .hll { background-color: #ffffcc }
+.highlight  { background: #E6E6E1; }
+.highlight .c { color: #999988; font-style: italic } /* Comment */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .k { color: #000000; font-weight: bold } /* Keyword */
+.highlight .o { color: #000000; font-weight: bold } /* Operator */
+.highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999; font-weight: bold; font-style: italic } /* Comment.Preproc */
+.highlight .c1 { color: #999988; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; font-weight: bold; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .ge { color: #000000; font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gs { font-weight: bold } /* Generic.Strong */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kc { color: #000000; font-weight: bold } /* Keyword.Constant */
+.highlight .kd { color: #000000; font-weight: bold } /* Keyword.Declaration */
+.highlight .kn { color: #000000; font-weight: bold } /* Keyword.Namespace */
+.highlight .kp { color: #000000; font-weight: bold } /* Keyword.Pseudo */
+.highlight .kr { color: #000000; font-weight: bold } /* Keyword.Reserved */
+.highlight .kt { color: #445588; font-weight: bold } /* Keyword.Type */
+.highlight .m { color: #009999 } /* Literal.Number */
+.highlight .s { color: #d01040 } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #0086B3 } /* Name.Builtin */
+.highlight .nc { color: #445588; font-weight: bold } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .nd { color: #3c5d5d; font-weight: bold } /* Name.Decorator */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #990000; font-weight: bold } /* Name.Exception */
+.highlight .nf { color: #990000; font-weight: bold } /* Name.Function */
+.highlight .nl { color: #990000; font-weight: bold } /* Name.Label */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nt { color: #000080 } /* Name.Tag */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .ow { color: #000000; font-weight: bold } /* Operator.Word */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #009999 } /* Literal.Number.Float */
+.highlight .mh { color: #009999 } /* Literal.Number.Hex */
+.highlight .mi { color: #009999 } /* Literal.Number.Integer */
+.highlight .mo { color: #009999 } /* Literal.Number.Oct */
+.highlight .sb { color: #d01040 } /* Literal.String.Backtick */
+.highlight .sc { color: #d01040 } /* Literal.String.Char */
+.highlight .sd { color: #d01040 } /* Literal.String.Doc */
+.highlight .s2 { color: #d01040 } /* Literal.String.Double */
+.highlight .se { color: #d01040 } /* Literal.String.Escape */
+.highlight .sh { color: #d01040 } /* Literal.String.Heredoc */
+.highlight .si { color: #d01040 } /* Literal.String.Interpol */
+.highlight .sx { color: #d01040 } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #d01040 } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+</style>
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<script src="ui/loogica/slides.js" type="text/javascript"></script>
+<link rel="stylesheet" href="ui/loogica/slides.css"
+      type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/loogica/outline.css"
+      type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/loogica/print.css"
+      type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/loogica/opera.css"
+      type="text/css" media="projection" id="operaFix" />
+
+<style type="text/css">
+#currentSlide {display: none;}
+</style>
+</head>
+<body>
+<div class="layout">
+<div id="controls"></div>
+<div id="currentSlide"></div>
+<div id="header">
+
+</div>
+<div id="footer">
+
+</div>
+</div>
+<div class="presentation">
+<div class="slide" id="slide0">
+
+
+<!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->
+<!-- This data file has been placed in the public domain. -->
+<!-- Colours
+======= -->
+<!-- Text Sizes
+========== -->
+<!-- Display in Slides (Presentation Mode) Only
+========================================== -->
+<!-- Display in Outline Mode Only
+============================ -->
+<!-- Display in Print Only
+===================== -->
+<!-- Display in Handout Mode Only
+============================ -->
+<!-- Incremental Display
+=================== -->
+<div class="center huge container">
+<p>Hackeando Emuladores</p>
+<p>por diversão e conhecimento</p>
+</div>
+<div class="center small container">
+Henrique Bastos</div>
+
+</div>
+<div class="slide" id="quem">
+<h1>Quem?</h1>
+<ul class="incremental simple">
+<li><a class="reference external" href="http://twitter.com/henriquebastos">&#64;henriquebastos</a></li>
+<li><a class="reference external" href="mailto:henrique&#64;bastos.net">henrique&#64;bastos.net</a></li>
+<li><a class="reference external" href="http://henriquebastos.net">http://henriquebastos.net</a></li>
+<li><a class="reference external" href="http://welcometothedjango.com.br">http://welcometothedjango.com.br</a></li>
+</ul>
+</div>
+<div class="slide" id="id1">
+<h1>Quem?</h1>
+<div class="center huge container">
+<object data="assets/loogica_logo.svg" style="width: 600px; height: 250px;" type="image/svg+xml">
+assets/loogica_logo.svg</object>
+</div>
+<div class="center huge container">
+<object data="assets/dekode_logo.svg" style="width: 600px; height: 250px;" type="image/svg+xml">
+assets/dekode_logo.svg</object>
+</div>
+</div>
+<div class="slide" id="o-que-e-chip8">
+<h1>O que é Chip8</h1>
+<ul class="simple">
+<li>Linguagem de programação</li>
+<li>Interpretada</li>
+<li>Minimalista</li>
+<li>Joseph Weisbecker</li>
+<li>1970</li>
+</ul>
+</div>
+<div class="slide" id="caracteristicas">
+<h1>Características</h1>
+<ul class="simple">
+<li>31 instruções hexadecimal de 4 bytes</li>
+<li>Sem processamento de texto</li>
+<li>Áudio primitivo</li>
+<li>Vídeo primitivo</li>
+<li>Keyboard</li>
+<li>Boa para máquinas com memória escassa</li>
+</ul>
+</div>
+<div class="slide" id="arquitetura">
+<h1>Arquitetura</h1>
+<div class="tiny container">
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">TestChip8Architecture</span><span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span> <span class="o">=</span> <span class="n">Chip8</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">test_memory_length</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has 4096 bytes of memory.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">4096</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">memory</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_register_count</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has 16 registers.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">registers</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_program_counter</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has a program counter starting at 0x200.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mh">0x200</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_stack</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has a stack to return from jumps and calls.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">stack</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="id2">
+<h1>Arquitetura</h1>
+<div class="tiny container">
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">TestChip8Architecture</span><span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39; continue... &#39;&#39;&#39;</span>
+
+    <span class="k">def</span> <span class="nf">test_screen</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has a 64 * 32 screen (2048 pixels).&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">2048</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">screen</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_index_register</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has an index register.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">index_register</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_keyboard</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has a hex keyboard with 16 keys.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">keyboard</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_delay_timer</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has a delay timer that counts to 0 at 60Hz.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">delay_timer</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_sound_timer</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Chip8 has a count down sound timer that beeps on non-zero value.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">sound_timer</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="instrucoes-constantes">
+<h1>Instruções Constantes</h1>
+<p><tt class="docutils literal">00E0</tt>: Clear the screen</p>
+<pre class="literal-block">
+Hex   Bin
+00E0  0000 0000 1110 0000
+</pre>
+</div>
+<div class="slide" id="instrucoes-com-enderecos">
+<h1>Instruções com endereços</h1>
+<p><tt class="docutils literal">1NNN</tt>: Jump to address NNN</p>
+<pre class="literal-block">
+Hex   Bin
+1200  0001 0010 0000 0000
+</pre>
+</div>
+<div class="slide" id="com-1-registrador-e-1-valor">
+<h1>Com 1 registrador e 1 valor</h1>
+<p><tt class="docutils literal">6XNN</tt>: Store number NN in register VX</p>
+<pre class="literal-block">
+Hex   Bin
+6A00  0110 1010 0000 0000
+</pre>
+</div>
+<div class="slide" id="com-2-registradores">
+<h1>Com 2 registradores</h1>
+<p><tt class="docutils literal">8XY1</tt>: Set VX to VX OR VY</p>
+<pre class="literal-block">
+Hex   Bin
+80F1  1000 0000 1111 0001
+</pre>
+</div>
+<div class="slide" id="com-2-registradores-e-1-valor">
+<h1>Com 2 registradores e 1 valor</h1>
+<p><tt class="docutils literal">DXYN</tt>: Draw a sprite at position VX, VY with N bytes...</p>
+<pre class="literal-block">
+Hex   Bin
+D011  1101 0000 0001 0001
+</pre>
+</div>
+<div class="slide" id="main-loop">
+<h1>Main loop</h1>
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">Chip8</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">cycle</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">word</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fetch</span><span class="p">()</span>
+        <span class="n">instruction</span><span class="p">,</span> <span class="n">args</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">instruction</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">decrement_timers</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="slide" id="multiplexador">
+<h1>Multiplexador</h1>
+<p>Decodifica instruções e seus parâmetros com <a class="reference external" href="https://en.wikipedia.org/wiki/Mask_(computing)">bitmask</a></p>
+<div class="tiny container">
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">TestOpcodeDecode</span><span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span> <span class="o">=</span> <span class="n">Chip8</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">test_00E0</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="mh">0x00E0</span><span class="p">),</span> <span class="p">(</span><span class="mh">0x00E0</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">()))</span>
+
+    <span class="k">def</span> <span class="nf">test_1NNN</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="mh">0x1200</span><span class="p">),</span> <span class="p">(</span><span class="mh">0x1</span><span class="p">,</span> <span class="p">(</span><span class="mh">0x200</span><span class="p">,)))</span>
+
+    <span class="k">def</span> <span class="nf">test_6XNN</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="mh">0x6199</span><span class="p">),</span> <span class="p">(</span><span class="mh">0x6</span><span class="p">,</span> <span class="p">(</span><span class="mh">0x1</span><span class="p">,</span> <span class="mh">0x99</span><span class="p">)))</span>
+
+    <span class="k">def</span> <span class="nf">test_8XY4</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="mh">0x8124</span><span class="p">),</span> <span class="p">(</span><span class="mh">0x8004</span><span class="p">,</span> <span class="p">(</span><span class="mh">0x1</span><span class="p">,</span> <span class="mh">0x2</span><span class="p">)))</span>
+
+    <span class="k">def</span> <span class="nf">test_DXYN</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="mh">0xD205</span><span class="p">),</span> <span class="p">(</span><span class="mh">0xD</span><span class="p">,</span> <span class="p">(</span><span class="mh">0x2</span><span class="p">,</span> <span class="mh">0x0</span><span class="p">,</span> <span class="mh">0x5</span><span class="p">)))</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="instrucoes-de-dados">
+<h1>Instruções de Dados</h1>
+<div class="small container">
+<pre class="literal-block">
+6XNN Store number NN in register VX
+8XY0 Store the value of register VY in register VX
+
+7XNN Add the value NN to register VX
+
+8XY4 Add the value of register VY to register VX; VF=01 if carry.
+8XY5 Subtract the value of register VY from register VX; VF=0 if borrow.
+8XY7 Set register VX to the value of VY minus VX; VF=0 if borrow.
+
+8XY2 Set VX to VX AND VY
+8XY1 Set VX to VX OR VY
+8XY3 Set VX to VX XOR VY
+
+8XY6 Store the value of register VY shifted right one bit in register VX; VF=LSB
+8XYE Store the value of register VY shifted left one bit in register VX; VF=MSB
+
+CXNN Set VX to a random number with a mask of NN
+</pre>
+</div>
+</div>
+<div class="slide" id="instrucoes-de-dados-exemplo">
+<h1>Instruções de Dados: Exemplo</h1>
+<div class="tiny container">
+<div class="highlight"><pre><span class="c"># Spec</span>
+<span class="k">def</span> <span class="nf">test_8XY4</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">(</span><span class="n">V1</span><span class="o">=</span><span class="mh">0xF</span><span class="p">,</span> <span class="n">V2</span><span class="o">=</span><span class="mh">0xF0</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0x8124</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="mh">0xFF</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="mh">0xF</span><span class="p">],</span> <span class="mh">0x0</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">,</span> <span class="mh">0x202</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_8XY4_overflow</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">(</span><span class="n">V1</span><span class="o">=</span><span class="mh">0x1</span><span class="p">,</span> <span class="n">V2</span><span class="o">=</span><span class="mh">0xFF</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0x8124</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="mh">0x0</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="mh">0xF</span><span class="p">],</span> <span class="mh">0x1</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">,</span> <span class="mh">0x202</span><span class="p">)</span>
+
+<span class="c"># Impl</span>
+<span class="k">class</span> <span class="nc">Chip8</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">op_8XY4</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">):</span>
+        <span class="sd">&#39;&#39;&#39;Add the value of register VY to register VX</span>
+<span class="sd">           Set VF to 01 if a carry occurs</span>
+<span class="sd">           Set VF to 00 if a carry does not occur&#39;&#39;&#39;</span>
+        <span class="n">value</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="n">X</span><span class="p">]</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="n">Y</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="n">X</span><span class="p">]</span> <span class="o">=</span> <span class="n">byte</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="mh">0xF</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span> <span class="k">if</span> <span class="n">value</span> <span class="o">&gt;</span> <span class="mh">0xFF</span> <span class="k">else</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">increment_program_counter</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="fluxo-de-controle">
+<h1>Fluxo de Controle</h1>
+<pre class="literal-block">
+1NNN Jump to address NNN
+BNNN Jump to address NNN + V0
+</pre>
+</div>
+<div class="slide" id="fluxo-de-controle-exemplo">
+<h1>Fluxo de Controle: Exemplo</h1>
+<div class="tiny container">
+<div class="highlight"><pre><span class="c"># Spec</span>
+<span class="k">def</span> <span class="nf">test_1NNN</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s">&#39;Jump to address NNN&#39;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0x1400</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mh">0x400</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_BNNN</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s">&#39;Jump to address NNN + V0&#39;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">(</span><span class="n">V0</span><span class="o">=</span><span class="mh">0x2</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0xB400</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">,</span> <span class="mh">0x402</span><span class="p">)</span>
+
+<span class="c"># Impl</span>
+<span class="k">class</span> <span class="nc">Chip8</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">op_1NNN</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">address</span><span class="p">):</span>
+        <span class="s">&#39;Jump to address NNN.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">program_counter</span> <span class="o">=</span> <span class="n">address</span>
+
+    <span class="k">def</span> <span class="nf">op_BNNN</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">address</span><span class="p">):</span>
+        <span class="s">&#39;Jump to address NNN + V0.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">program_counter</span> <span class="o">=</span> <span class="n">address</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="subrotinas">
+<h1>Subrotinas</h1>
+<pre class="literal-block">
+2NNN Execute subroutine starting at address NNN
+00EE Return from a subroutine
+</pre>
+</div>
+<div class="slide" id="subrotinas-exemplo">
+<h1>Subrotinas: Exemplo</h1>
+<div class="tiny container">
+<div class="highlight"><pre><span class="c"># Spec</span>
+<span class="k">def</span> <span class="nf">test_2NNN</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s">&#39;Execute subroutine starting at address NNN&#39;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0x2400</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mh">0x400</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertSequenceEqual</span><span class="p">([</span><span class="mh">0x202</span><span class="p">],</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">stack</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_00EE</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="s">&#39;Return from a subroutine&#39;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">stack</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mh">0x200</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0x00EE</span><span class="p">,</span> <span class="n">at</span><span class="o">=</span><span class="mh">0x400</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertSequenceEqual</span><span class="p">([],</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">stack</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mh">0x200</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">)</span>
+
+<span class="c"># Impl</span>
+<span class="k">class</span> <span class="nc">Chip8</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">op_2NNN</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">address</span><span class="p">):</span>
+        <span class="s">&#39;Execute subroutine starting at address NNN.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">increment_program_counter</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stack</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">program_counter</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">program_counter</span> <span class="o">=</span> <span class="n">address</span>
+
+    <span class="k">def</span> <span class="nf">op_00EE</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">&#39;Return from a subroutine.&#39;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">program_counter</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">stack</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="jumps-condicionais">
+<h1>Jumps Condicionais</h1>
+<div class="small container">
+<pre class="literal-block">
+3XNN Skip next if the value of register VX equals NN
+
+5XY0 Skip next if the value of register VX
+     is equal to the value of register VY
+
+4XNN Skip next if the value of register VX
+     is not equal to NN
+
+9XY0 Skip next if the value of register VX
+     is not equal to the value of register VY
+</pre>
+</div>
+</div>
+<div class="slide" id="jumps-condicionais-exemplo">
+<h1>Jumps Condicionais: Exemplo</h1>
+<p>Skip next if the value of register <em>VX</em> != <em>NN</em></p>
+<div class="tiny container">
+<div class="highlight"><pre><span class="c"># Spec</span>
+<span class="k">def</span> <span class="nf">test_3XNN_equality</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">(</span><span class="n">V5</span><span class="o">=</span><span class="mh">0x42</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0x3542</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mh">0x204</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_3XNN_inequality</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+
+    <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">(</span><span class="n">V5</span><span class="o">=</span><span class="mh">0x42</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0x3524</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="mh">0x202</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">)</span>
+
+<span class="c"># Impl</span>
+<span class="k">class</span> <span class="nc">Chip8</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">op_3XNN</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">NN</span><span class="p">):</span>
+        <span class="s">&#39;Skip next if the value of VX == NN.&#39;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="n">X</span><span class="p">]</span> <span class="o">==</span> <span class="n">NN</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">skip_next_instruction</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">increment_program_counter</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="timers">
+<h1>Timers</h1>
+<div class="small container">
+<pre class="literal-block">
+FX15 Set the delay timer to the value of register VX
+FX07 Store the current value of the delay timer in register VX
+FX18 Set the sound timer to the value of register VX
+</pre>
+</div>
+</div>
+<div class="slide" id="input">
+<h1>Input</h1>
+<p>16 teclas: 0 à F</p>
+<div class="small container">
+<pre class="literal-block">
+FX0A Wait for a keypress and store the result in register VX
+
+EX9E Skip next if the key corresponding to the hex value
+     currently stored in register VX is pressed
+
+EXA1 Skip next if the key corresponding to the hex value
+     currently stored in register VX is not pressed
+</pre>
+</div>
+</div>
+<div class="slide" id="graficos">
+<h1>Gráficos</h1>
+<ul class="simple">
+<li>XOR Mode</li>
+<li>Sprites: 8 pixels de largura por 1 à 15 pixels de altura.</li>
+</ul>
+<div class="section" id="registrador-i">
+<h2>Registrador I</h2>
+<div class="small container">
+<pre class="literal-block">
+ANNN Store memory address NNN in register I
+FX1E Add the value stored in register VX to register I
+</pre>
+</div>
+</div>
+<div class="section" id="desenho">
+<h2>Desenho</h2>
+<div class="small container">
+<pre class="literal-block">
+DXYN Draw a sprite at position VX, VY with N bytes of sprite data
+     starting at the address stored in I.
+
+Set VF to 01 if any set pixels are changed to unset, and 00 otherwise
+</pre>
+</div>
+</div>
+</div>
+<div class="slide" id="fontes">
+<h1>Fontes</h1>
+<ul class="simple">
+<li>De 0 à F</li>
+</ul>
+<div class="small container">
+<pre class="literal-block">
+0              1              2              3
+
+Hex Bin        Hex Bin        Hex Bin        Hex Bin
+
+F0  ####0000   20  00#00000   F0  ####0000   F0  ####0000
+90  #00#0000   60  0##00000   10  000#0000   10  000#0000
+90  #00#0000   20  00#00000   F0  ####0000   F0  ####0000
+90  #00#0000   20  00#00000   80  #0000000   10  000#0000
+F0  ####0000   70  0###0000   F0  ####0000   F0  ####0000
+</pre>
+</div>
+</div>
+<div class="slide" id="graficos-exemplo">
+<h1>Gráficos: Exemplo</h1>
+<div class="tiny container">
+<div class="highlight"><pre><span class="c"># Spec</span>
+<span class="k">def</span> <span class="nf">test_DXYN_no_collision</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">index_register</span> <span class="o">=</span> <span class="n">FONT_ADDRESS</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">(</span><span class="n">V0</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">V1</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0xD005</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertDrawn</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">memory</span><span class="o">.</span><span class="n">font</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertFalse</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">collision</span><span class="p">())</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">,</span> <span class="mh">0x202</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">test_DXYN_with_collision</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="n">sprite</span> <span class="o">=</span> <span class="p">[</span><span class="mh">0xF0</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0xF0</span><span class="p">]</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">memory</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">sprite</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">screen</span><span class="o">.</span><span class="n">draw</span><span class="p">([</span><span class="mh">0xFF</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="c"># previous state</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">index_register</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">(</span><span class="n">V0</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">V1</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="mh">0xD005</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertDrawn</span><span class="p">([</span><span class="mh">0x0F</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0x90</span><span class="p">,</span> <span class="mh">0xF0</span><span class="p">],</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">collision</span><span class="p">())</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cpu</span><span class="o">.</span><span class="n">program_counter</span><span class="p">,</span> <span class="mh">0x202</span><span class="p">)</span>
+
+<span class="c"># Impl</span>
+<span class="k">class</span> <span class="nc">Chip8</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">op_DXYN</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">VX</span><span class="p">,</span> <span class="n">VY</span><span class="p">,</span> <span class="n">N</span><span class="p">):</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="n">VX</span><span class="p">]</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="n">VY</span><span class="p">]</span>
+        <span class="n">sprite</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">memory</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">index_register</span><span class="p">,</span> <span class="n">N</span><span class="p">)</span>
+        <span class="n">collision</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">screen</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">sprite</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">registers</span><span class="p">[</span><span class="mh">0xF</span><span class="p">]</span> <span class="o">=</span> <span class="nb">bool</span><span class="p">(</span><span class="n">collision</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">increment_program_counter</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="outros">
+<h1>Outros</h1>
+<div class="center container">
+Tem mais, mas não dá tempo! :)</div>
+</div>
+<div class="slide" id="pygame">
+<h1>PyGame</h1>
+<div class="tiny container">
+<div class="highlight"><pre><span class="n">screen</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">set_mode</span><span class="p">((</span><span class="mi">640</span><span class="p">,</span> <span class="mi">320</span><span class="p">))</span>
+<span class="n">background</span> <span class="o">=</span> <span class="n">pygame</span><span class="o">.</span><span class="n">Surface</span><span class="p">(</span><span class="n">screen</span><span class="o">.</span><span class="n">get_size</span><span class="p">())</span>
+<span class="n">background</span> <span class="o">=</span> <span class="n">background</span><span class="o">.</span><span class="n">convert</span><span class="p">()</span>
+
+<span class="n">emulator</span> <span class="o">=</span> <span class="n">Chip8</span><span class="p">()</span>
+
+<span class="c"># Lê a ROM...</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">rom</span><span class="p">,</span> <span class="s">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="nb">buffer</span> <span class="o">=</span> <span class="nb">bytearray</span><span class="p">(</span><span class="mi">4092</span> <span class="o">-</span> <span class="mh">0x200</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">readinto</span><span class="p">(</span><span class="nb">buffer</span><span class="p">)</span>
+    <span class="n">emulator</span><span class="o">.</span><span class="n">memory</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="mh">0x200</span><span class="p">,</span> <span class="nb">buffer</span><span class="p">)</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">pygame</span><span class="o">.</span><span class="n">event</span><span class="o">.</span><span class="n">get</span><span class="p">():</span>
+        <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">KEYDOWN</span><span class="p">:</span>
+            <span class="n">key</span> <span class="o">=</span> <span class="n">KEYMAP</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">key</span><span class="p">:</span>
+                <span class="n">emulator</span><span class="o">.</span><span class="n">keyboard</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">event</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="n">KEYUP</span><span class="p">:</span>
+            <span class="n">key</span> <span class="o">=</span> <span class="n">KEYMAP</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">key</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">key</span><span class="p">:</span>
+                <span class="n">emulator</span><span class="o">.</span><span class="n">keyboard</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="n">emulator</span><span class="o">.</span><span class="n">cycle</span><span class="p">()</span>
+    <span class="c"># Atualiza tela</span>
+    <span class="n">background</span><span class="o">.</span><span class="n">fill</span><span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">64</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">32</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">emulator</span><span class="o">.</span><span class="n">screen</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+                <span class="n">pixel</span> <span class="o">=</span> <span class="n">Rect</span><span class="p">(</span><span class="n">x</span><span class="o">*</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">*</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+                <span class="n">pygame</span><span class="o">.</span><span class="n">draw</span><span class="o">.</span><span class="n">rect</span><span class="p">(</span><span class="n">background</span><span class="p">,</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">),</span> <span class="n">pixel</span><span class="p">)</span>
+    <span class="n">screen</span><span class="o">.</span><span class="n">blit</span><span class="p">(</span><span class="n">background</span><span class="p">,</span> <span class="n">background</span><span class="o">.</span><span class="n">get_rect</span><span class="p">())</span>
+    <span class="n">pygame</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">update</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="slide" id="evolucao">
+<h1>Evolução?</h1>
+<ul class="simple">
+<li>Implementar S-Chip8</li>
+<li>Disassembler</li>
+<li>Macro Assembler</li>
+<li>...</li>
+</ul>
+</div>
+<div class="slide" id="obrigado">
+<h1>Obrigado</h1>
+<ul class="simple">
+<li><a class="reference external" href="http://twitter.com/henriquebastos">&#64;henriquebastos</a></li>
+<li><a class="reference external" href="mailto:henrique&#64;bastos.net">henrique&#64;bastos.net</a></li>
+<li><a class="reference external" href="http://henriquebastos.net">http://henriquebastos.net</a></li>
+<li><a class="reference external" href="http://welcometothedjango.com.br">http://welcometothedjango.com.br</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
